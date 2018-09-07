@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sport Authority Form</title>
+	<meta name = "viewport" content = "width=device-width,initial-scale=1.0">
+	<!--<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">-->
+	<link rel = "stylesheet" type = "text/css" href = "SportAuthority.css">
+</head>
+
+<body>
+	<div class = "form">
+		<div class = "header">
+			<img src = "logo.jpg" width = "100%">
+		</div>
+		
+		<form method = "post" action = "">
+		
+			
+			<h2>Application for the post of Assistant Director</h2>
+			
+			<br>
+		
+			
+			<label for = "firstName">First Name</label>
+			<input type = "text" name = "firstName" value = "" required="required" class = "name">
+			<br>
+			
+			<label for = "middleName">Middle Name</label>
+			<input type = "text" name = "middleName" value = "" class = "name">
+			<br>
+			
+			<label for = "lastName">Last Name</labeL>
+			<input type = "text" name = "lastName" value = "" required = "required" class = "name">
+			<br>
+			
+			<label for = "fahterOrHusbandName">Fahter's/Husband's Name</label>
+			<input type = "text" name = "fahterOrHusbandName" value = "" required = "required" class = "name">
+			
+			<br>
+			
+			<label for = "dob">Date of birth: </label>
+			<input type = "date" name = "dob" value = ""  required = "required">
+			
+			<br>
+			<br>
+			<label for = "saiEmployee">Are you SAI Regular Employee: </label>
+			<input type = "radio" name = "saiEmployee" value = "yes">Yes
+			<input type = "radio" name = "saiEmployee" value = "no">No
+			
+			<br>
+			<br>
+			
+			<label for = "gender">Gender</label>
+			<input type = "radio" name = "gender" value = "male">Male
+			<input type = "radio" name = "gender" value = "female">Female
+			<input type = "radio" name = "gender" value = "others">Others
+			
+			<br>
+			<br>
+			
+			<label for = "category">Category</label>
+			<input type = "radio" name = "category" value = "SC">SC
+			<input type = "radio" name = "category" value = "ST">ST
+			<input type = "radio" name = "category" value = "OBC">OBC
+			<input type = "radio" name = "category" value = "general">GEN
+			
+			<br>
+			<br>
+			
+			<label for = "subCategory">Sub-Category</label>
+			<input type = "checkbox" name = "subCategory" value = "VisuallyChallenged">Visually Challenged<br>
+			<input type = "checkbox" name = "subCategory" value = "Deaf & Dumb">Deaf and Dumb<br>
+			<input type = "checkbox" name = "subCategory" value = "Loco motor/ Ortho">Loco motor/ Ortho.<br>
+			<input type = "checkbox" name = "subCategory" value = "Ex-serviceman(self)/J&K/Govt">Ex-serviceman (self)/J&K/Govt<br>
+			
+			<textarea cols = "20" rows = "5">Please enter the specific</textarea>
+			
+			<br>
+			<br>
+			<label for = "postApplied">Post Applied</label>
+			<input type = "radio" name = "postApplied" value = "AssistantDirector">Assistant Director
+			
+			<br>
+			<br>
+			<label for = "eligibiltyCriteria">Do you fulfill the eligibilty criteria as per the Advertisement</label>
+			<input type = "radio" name = "eligibiltyCriteria" value = "yes">Yes
+			<input type = "radio" name = "eligibiltyCriteria" value = "no">No
+			
+			
+			<br>
+			
+			<br>
+			
+			
+				
+					
+					
+					<label for = "educationalQualification">Educational Qualification</label>
+					<br>
+					
+					<div style = "overflow-x:auto">
+					<table>
+						<tr>
+							<th>S.No</th>
+							<th>Qualification</th>
+							<th>Board/Inst./Univ.</th>
+							<th>Marks Obtained</th>
+							<th>Total Marks</th>
+							<th>Subject</th>
+						</tr>
+						
+						<tr>
+							<td><input type = "text" name = "s_no" value = "1." disabled = "disabled"></td>
+							<td><input type = "text" name = "qualification" value = ""></td>
+							<td><input type = "text" name = "board" value = ""></td>
+							<td><input type = "number" name = "marks_obtained"></td>
+							<td><input type = "number" name = "total_marks"></td>
+							<td><input type = "text" name = "subject"></td>
+						</tr>
+						
+						<tr>
+							<td><input type = "text" name = "s_no" value = "2." disabled = "disabled"></td>
+							<td><input type = "text" name = "qualification" value = ""></td>
+							<td><input type = "text" name = "board" value = ""></td>
+							<td><input type = "number" name = "marks_obtained"></td>
+							<td><input type = "number" name = "total_marks"></td>
+							<td><input type = "text" name = "subject"></td>
+						</tr>
+						
+						<tr>
+							<td><input type = "text" name = "s_no" value = "3." disabled = "disabled"></td>
+							<td><input type = "text" name = "qualification" value = ""></td>
+							<td><input type = "text" name = "board" value = ""></td>
+							<td><input type = "number" name = "marks_obtained"></td>
+							<td><input type = "number" name = "total_marks"></td>
+							<td><input type = "text" name = "subject"></td>
+						</tr>
+						
+						<tr>
+							<td><input type = "text" name = "s_no" value = "4." disabled = "disabled"></td>
+							<td><input type = "text" name = "qualification" value = ""></td>
+							<td><input type = "text" name = "board" value = ""></td>
+							<td><input type = "number" name = "marks_obtained"></td>
+							<td><input type = "number" name = "total_marks"></td>
+							<td><input type = "text" name = "subject"></td>
+						</tr>
+						
+						<tr>
+							<td><input type = "text" name = "s_no" value = "5." disabled = "disabled"></td>
+							<td><input type = "text" name = "qualification" value = ""></td>
+							<td><input type = "text" name = "board" value = ""></td>
+							<td><input type = "number" name = "marks_obtained"></td>
+							<td><input type = "number" name = "total_marks"></td>
+							<td><input type = "text" name = "subject"></td>
+						</tr>
+						
+					</table>
+					</div>
+					
+					<hr>
+					<br>
+					<br>
+					<label for = "details_marks">Details of marks obtained in Civil Services Main Examination 2016 or 2017</label>
+					<div style = "overflow-x:auto">
+					<table>
+						<tr>
+							<th>Subject</th>
+							<th>Marks Obtained</th>
+							<th>Percentage</th>
+						</tr>
+						
+						<tr>
+							<td><input type = "text" name = "subjects" value = ""></td>
+							<td><input type = "number" name = "marksObtained" value = ""></td>
+							<td><input type = "number" name = "percentage" value = ""></td>
+							
+						</tr>
+						
+						<tr>
+							<td><input type = "text" name = "subjects" value = ""></td>
+							<td><input type = "number" name = "marksObtained" value = ""></td>
+							<td><input type = "number" name = "percentage" value = ""></td>
+						</tr>
+						
+						<tr>
+							<td><input type = "text" name = "subjects" value = ""></td>
+							<td><input type = "number" name = "marksObtained" value = ""></td>
+							<td><input type = "number" name = "percentage" value = ""></td>
+						</tr>
+						
+						<tr>
+							<td><input type = "text" name = "subjects" value = ""></td>
+							<td><input type = "number" name = "marksObtained" value = ""></td>
+							<td><input type = "number" name = "percentage" value = ""></td>
+						</tr>
+						
+						<tr>
+							<td><input type = "text" name = "subjects" value = ""></td>
+							<td><input type = "number" name = "marksObtained" value = ""></td>
+							<td><input type = "number" name = "percentage" value = ""></td>
+						</tr>
+						
+						<tr>
+							<td><input type = "text" name = "subjects" value = ""></td>
+							<td><input type = "number" name = "marksObtained" value = ""></td>
+							<td><input type = "number" name = "percentage" value = ""></td>
+						</tr>
+						
+						<tr>
+							<td><input type = "text" name = "subjects" value = ""></td>
+							<td><input type = "number" name = "marksObtained" value = ""></td>
+							<td><input type = "number" name = "percentage" value = ""></td>
+						</tr>
+					</table>
+					</div>
+					<br>
+					<br>
+					
+					<fieldset>
+						<legend>Corresponding Address</legend>
+					
+					<label for = "Address">Address</label>
+					<input type = "text" name = "Address" value = ""  required = "required" class = "address">
+					<br>
+					<label for = "City">City</label>
+					<input type = "text" name = "City" value = "" required = "required"  class = "address">
+					<br>
+					<label for = "District">District</label>
+                    <input type = "text" name = "District" value = ""  required = "required" class = "address">	
+					<br>
+                    <label for = "State">State</label>		
+                    <input type = "text" name = "State" value = ""  required = "required"  class = "address">
+					<br>
+					<label for = "pincode">PinCode</label>
+					<input type = "text" name = "pincode" value = "" required = "required" class = "address">
+					<br>
+					<label for = "email">Email</label>
+					<input type = "email" name = "email" value = "" class = "address">
+					<br>
+					<label for = "mob_number">Contact Number</label>
+					<input type = "text" name = "mob_number" value = "" class = "address">
+					
+					</fieldset>	
+					
+					<br>
+					
+					<fieldset>
+						<legend>Permanent Address</legend>
+					
+					<label for = "Address">Address</label>
+					<input type = "text" name = "Address" value = ""  required = "required" class = "address">
+					<br>
+					<label for = "City">City</label>
+					<input type = "text" name = "City" value = "" required = "required"  class = "address">
+					<br>
+					<label for = "District">District</label>
+                    <input type = "text" name = "District" value = ""  required = "required" class = "address">	
+					<br>
+                    <label for = "State">State</label>		
+                    <input type = "text" name = "State" value = ""  required = "required"  class = "address">
+					<br>
+					<label for = "pincode">PinCode</label>
+					<input type = "text" name = "pincode" value = "" required = "required" class = "address">
+					<br>
+					<label for = "email">Email</label>
+					<input type = "email" name = "email" value = "" class = "address">
+					<br>
+					<label for = "mob_number">Contact Number</label>
+					<input type = "text" name = "mob_number" value = "" class = "address">
+					
+					</fieldset>	
+					
+					<br>
+					
+					<label for = "experience">Experience</label>
+					<div style = "overflow-x:auto">
+						<table>
+							<tr>
+								<th>Designation and scale of pay</th>
+								<th>Name of Office</th>
+								<th>From</th>
+								<th>To</th>
+								<th>Total Experience</th>
+							</tr>
+							
+							<tr>
+								<td><input type = "text" name = "designationAndScaleOfPay" value = "" required = "required"></td>
+								<td><input type = "text" name = "officeName" value = "" required = "required"></td>
+								<td><input type = "text" name = "from" value = "" required = "required"></td>
+								<td><input type = "text" name = "to" value = "" required = "required"></td>
+								<td><input type = "text" name = "totalExperience" value = "" required = "required"></td>
+							</tr>
+							
+							<tr>
+								<td><input type = "text" name = "designationAndScaleOfPay" value = "" required = "required"></td>
+								<td><input type = "text" name = "officeName" value = "" required = "required"></td>
+								<td><input type = "text" name = "from" value = "" required = "required"></td>
+								<td><input type = "text" name = "to" value = "" required = "required"></td>
+								<td><input type = "text" name = "totalExperience" value = "" required = "required"></td>
+							</tr>
+							
+							<tr>
+								<td><input type = "text" name = "designationAndScaleOfPay" value = "" required = "required"></td>
+								<td><input type = "text" name = "officeName" value = "" required = "required"></td>
+								<td><input type = "text" name = "from" value = "" required = "required"></td>
+								<td><input type = "text" name = "to" value = "" required = "required"></td>
+								<td><input type = "text" name = "totalExperience" value = "" required = "required"></td>
+							</tr>
+						</table>
+					</div>
+							
+					<br>
+					
+					<label for = "demandDraft">Particulars of Demand Draft</label> 
+					<div style = "overflow-x:auto">
+						<table>
+							<tr>
+								<th>DD. No.</th>
+								<th>Date</th>
+								<th>Name of Bank</th>
+								<th>Bank Address</th>
+								<th>Branch Code</th>
+								<th>Amount (Rs).</th>
+							</tr>
+							
+							<tr>
+								<td><input type = "text" name = "dd_number" required = "required"></td>
+								<td><input type = "date" name = "dd_date" required = "required"></td>
+								<td><input type = "text" name = "nameOfBank" required = "required"></td>
+								<td><input type = "text" name = "bankAddress" required = "required"></td>
+								<td><input type = "text" name = "branchCode" required = "required"></td>
+								<td><input type = "number" name = "amount" required = "required"></td>
+							</tr>
+						</table>
+					</div>
+					
+					<br>
+					
+					<label for = "declaration">
+						<p>I hereby declare that all the statements made in this application are true and correct to the 
+						best of my knowledge and belief. I understand that in the event of any information being found false
+						or incorrect or not satisfying the prescribed eligibilty criteria for the post applied for, my candidate
+						is liable to be cancelled/rejected at any stage of selection.
+						</p>
+					</label>
+					<input type = "checkbox" name = "declaration" value = "agree">Agree<br>
+						
+			
+			<br>
+			<input type = "submit" value = "submit">
+			<input type = "reset" value = "reset">
+		</form>
+	</div>
+	
+</body>
+</html>

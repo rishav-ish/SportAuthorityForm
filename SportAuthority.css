@@ -1,0 +1,103 @@
+
+form{
+  box-sizing: border-box;
+  max-width: 80%;
+  margin: auto;
+  border:1px solid green;
+  padding: 20px;
+  box-shadow: 2px 2px 10px green;
+}
+
+legend{
+	color:green;
+}
+
+h2{
+  color: green;
+  font-weight: bold;
+  border-bottom: 1px solid green;
+  padding-bottom: 10px;
+}
+
+label{
+  display: block;
+  font-size: 20px;
+  margin:5px 0px;
+  font-family: sans-serif;
+  //font-weight: bold;
+}
+
+input{
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.name{
+  display: block;
+  width:98%;
+  text-transform: capitalize;
+}
+
+table{
+  border:1px solid black;
+   border-collapse: collapse;
+}
+
+th{
+  padding: 10px;
+}
+
+td{
+  border: 1px solid black;
+}
+
+table input{
+  border:none;
+}
+
+img{
+	height:300px;
+}
+
+.address{
+  display: block;
+  width: 98%;
+  border:none;
+  border-bottom: 1px solid black;
+}
+
+p{
+  text-align: justify;
+}
+
+input[type="submit"]{
+  background-color:#7CBB00;
+  color:white;
+  border-radius:8px;
+}
+
+
+input[type="reset"]{
+   background-color: #E50914;
+  color:white;
+  border-radius: 8px;
+}
+
+@media screen and (max-width:600px){
+  form{
+    box-sizing: none;
+    max-width: none;
+    margin:0px;
+    padding: 0px;
+    border:none;
+	box-shadow:none;
+  }
+  img{
+	  height:100px;
+  }
+}
+
+
